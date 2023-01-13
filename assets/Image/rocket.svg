@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="155.625" height="262.633" viewBox="0 0 155.625 262.633">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0.006" stop-color="#f7bd6f"/>
+      <stop offset="0.45" stop-color="#f29857"/>
+      <stop offset="1" stop-color="#ed6637"/>
+    </linearGradient>
+  </defs>
+  <g id="rocket" transform="translate(-317.015 -218.142)">
+    <g id="flame" transform="translate(368.812 410.16)">
+      <path id="Tracé_12" data-name="Tracé 12" d="M417.05,445.571H383.994s-10.838,11.356-9.346,28.068a46.037,46.037,0,0,1,5.5-5.267.613.613,0,0,1,.969.592c-.586,3.774-.083,15.1,19.406,34.339,19.489-19.24,19.992-30.565,19.406-34.339a.612.612,0,0,1,.969-.592,46.04,46.04,0,0,1,5.5,5.267C427.888,456.927,417.05,445.571,417.05,445.571Z" transform="translate(-374.506 -432.687)" fill="url(#linear-gradient)"/>
+      <path id="Tracé_13" data-name="Tracé 13" d="M402.243,431.271v.01s-21.166,16.8,0,45.735v-.01C423.41,448.07,402.243,431.271,402.243,431.271Z" transform="translate(-376.322 -431.271)" fill="#ffe697"/>
+      <path id="Tracé_14" data-name="Tracé 14" d="M402.659,443.191v.006s-12.649,10.039,0,27.332v-.006C415.309,453.23,402.659,443.191,402.659,443.191Z" transform="translate(-376.738 -432.452)" fill="#fff"/>
+    </g>
+    <g id="bottom" transform="translate(364.171 406.666)">
+      <path id="Tracé_15" data-name="Tracé 15" d="M376.915,437.153l2.4,4.636A5.952,5.952,0,0,0,384.6,445h31.888a5.953,5.953,0,0,0,5.285-3.213l2.4-4.636Z" transform="translate(-370.105 -428.36)" fill="#949494" stroke="#424242" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Tracé_16" data-name="Tracé 16" d="M369.356,427.393l3.1,5.972a7.668,7.668,0,0,0,6.808,4.14h41.077a7.668,7.668,0,0,0,6.808-4.14l3.1-5.972Z" transform="translate(-369.356 -427.393)" fill="#4d4d4d" stroke="#424242" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g id="wings" transform="translate(317.015 360.919)">
+      <g id="Groupe_23" data-name="Groupe 23" transform="translate(88.109 0)">
+        <path id="Tracé_17" data-name="Tracé 17" d="M433.66,376.616s51.812,17.8,48.516,69.865c0,0-43.621-44.442-67.365-34.932Z" transform="translate(-414.811 -376.616)" fill="#e02424"/>
+      </g>
+      <g id="Groupe_24" data-name="Groupe 24" transform="translate(0 0)">
+        <path id="Tracé_18" data-name="Tracé 18" d="M365.681,376.616s-51.812,17.8-48.516,69.865c0,0,43.621-44.442,67.365-34.932Z" transform="translate(-317.015 -376.616)" fill="#e02424"/>
+      </g>
+    </g>
+    <path id="nose" d="M425.558,261.375a163.8,163.8,0,0,0-25.171-43.233l-.007.059-.008-.059a163.608,163.608,0,0,0-24.98,42.767A106.561,106.561,0,0,1,425.558,261.375Z" transform="translate(-5.782)" fill="#e02424"/>
+    <path id="body" d="M424.565,267.534l.006,0-.694-1.769c-27.716-7.112-50.165-.466-50.165-.466l-.879,2.235h0C349.931,326.842,360.317,391.223,364,409.4a6.28,6.28,0,0,0,6.162,5.025H427.24A6.281,6.281,0,0,0,433.4,409.4C437.084,391.223,447.471,326.842,424.565,267.534Z" transform="translate(-4.103 -4.392)" fill="#fff"/>
+    <g id="window" transform="translate(372.318 288.056)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="21.252" cy="21.252" r="21.252" fill="#043146" stroke="#424242" stroke-miterlimit="10" stroke-width="2"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="16.261" cy="16.261" r="16.261" transform="translate(1.073 13.344) rotate(-22.241)" fill="#7c7c7c" stroke="#424242" stroke-miterlimit="10" stroke-width="2"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="16.108" cy="16.108" r="16.108" transform="translate(5.144 5.144)" fill="#3ec2e5" stroke="#424242" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Tracé_21" data-name="Tracé 21" d="M401.244,304.176a16.094,16.094,0,0,1,14.485,9.1,16.1,16.1,0,1,0-30,11.3,16.065,16.065,0,0,1,15.513-20.4Z" transform="translate(-378.964 -296.308)" stroke="#424242" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <path id="wing" d="M402.534,383.816c-17.362,39.518,0,73.683,0,73.683S419.9,423.334,402.534,383.816Z" transform="translate(-7.707 -16.41)" fill="#e02424"/>
+  </g>
+</svg>

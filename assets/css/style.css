@@ -1,0 +1,432 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* -------------header----------------- */
+#header{
+    background-color: #BFDBFF;
+    width: 100vw;
+    height: 70vh;
+    box-sizing: border-box;
+}
+
+#header .rocket-image{
+    width: 8%;
+    height: 8%;
+    margin: 0px;   
+    padding-top: 100px;
+    padding-left: 60px;
+}   
+
+#header #title-button-menu {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+} 
+
+
+#header #title-button-menu img{
+   width: 3vw;
+   height: 5vh;
+   margin: 0px;
+}
+
+#header #title-button-menu h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #000A64;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}  
+
+
+#header #title-image {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-flow: row wrap;
+}
+
+#header #title-image p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000A64;
+    padding-top: 125px;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#header .clouds {
+  width: 10%;
+  padding: 0;
+  margin: 0;
+}
+
+#header .clouds-one{
+   position: absolute;
+   transform: translate(500%, -50%);
+}
+
+#header .clouds-two{
+   position: absolute;
+   transform: translate(720% , -380%);
+}
+#header .clouds-four {
+   position: absolute;
+   transform: translate(0% , -100%);
+}
+
+/* ---------------- Fin header  ---------------------*/
+
+
+
+/* ---------------- Section fonctionnality ---------------------*/
+
+#fonctionality h2{
+    text-align: center;
+    color: #FF7480;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+.trace-24 svg{
+   fill: #F0F0F0;
+   width: 12vw;
+   height: 12vh;
+   position: absolute;
+   transform: translate(680%, -60%);
+}
+
+.trace-32 svg{
+   fill: #F0F0F0;
+   width: 10vw;
+   height: 10vh;
+   position: absolute;
+   transform: translate(15% , 130%);
+}
+
+#fonctionality .box-fonctionality{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-evenly;
+   padding-top: 80px;
+}
+
+#fonctionality .box-fonctionality img{
+   width: 8%;
+}
+
+
+#fonctionality .text{
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-evenly;
+   padding-top: 10px;
+}
+
+#fonctionality .text span {
+   padding-left: 20px;
+}
+
+#fonctionality .text p {
+    color: #000A64;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+/*---------------- Animmaiton flip css----------- */
+
+
+
+/* ---------------- Fin section fonctionnality  ---------------------*/
+
+
+ /*------------- Section Tarifs------------------ */
+
+#tarifs {
+    background-image: url(/assets/Image/background-tarifs.png);
+    width: 99vw;
+    height: 80vh;
+    padding: 0;
+    margin-top: 200px;
+}
+
+
+#tarifs .title-tarifs{
+   text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+   color: #000A64;
+   font-family :Georgia, 'Times New Roman', Times, serif;
+   padding-top: 50px;
+ }
+
+
+ #tarifs .box-tarifs .price{
+    text-align: center;
+    font-size: 25px;
+    color: #000A64;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+  }
+ 
+
+#tarifs .box-tarifs{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   padding-top: 50px;
+   
+}
+
+#tarifs  .box-tarifs .box-bronze{
+    background-color: #F0F0F0;
+    width: 20vw;
+    height: 50vh;
+ }
+
+ #tarifs  .box-tarifs .box-argent{
+   background-color: #F0F0F0;
+    width: 20vw;
+    height: 50vh;
+ }
+
+ #tarifs  .box-tarifs .box-or{
+    background-color: #F0F0F0;
+    width: 20vw;
+    height: 50vh;
+ }
+
+ #tarifs  .box-tarifs .box-bronze .border-bronze{
+    background-color: #D49A4E;
+    width: 20vw;
+    height: 7vh;
+ }
+ #tarifs  .box-tarifs .box-argent .border-argent{
+    background-color: #BBC6CE;
+    width: 20vw;
+    height: 7vh;
+ }
+
+ #tarifs  .box-tarifs .box-or .border-or{
+    background-color: #DCD388;
+    width: 20vw;
+    height: 7vh;
+ }
+
+ #tarifs .box-tarifs .title {
+   text-align: center;
+   color: #ffff;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 18px;
+   padding-top: 15px;
+  }
+
+ #tarifs .box-tarifs .price{
+    text-align: center;
+    font-size: 50px;
+}
+
+ #tarifs .box-tarifs .bronze span{
+    font-weight: bold;
+ }
+
+ #tarifs .box-tarifs .argent span{
+    font-weight: bold;
+ }
+
+ #tarifs .box-tarifs .or span{
+    font-weight: bold;
+ }
+
+
+ #tarifs .box-tarifs .price span{
+   font-weight: bold;
+   font-size: 35px;
+}
+
+
+
+#tarifs .box-tarifs .labbel {
+   text-align: center;
+   color: #000000;   
+   font-family: Arial, Helvetica, sans-serif;
+   padding-top: 20px;
+}
+
+#tarifs .box-tarifs .box-button {
+   display: flex;
+   justify-content: center;
+   flex-flow: row wrap;
+   padding-top: 70px;
+}
+
+#tarifs .box-tarifs .button {
+   background-color: #000A64;
+   border-radius: 3px;
+   width: 11vw;
+   height: 4vh;
+}
+
+#tarifs .box-tarifs .button p {
+  color: #ffff;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+
+/* ---------------- Fin section tarif  ---------------------*/
+
+
+
+/*--------------- Section rejoindre -------------------*/
+
+#join {
+   margin-top: 100px;
+   width: 100vw;
+   height: 80vh;
+}
+
+#join .title-join {
+   color: #000A64;
+   font-family :Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   font-size: 30px;
+   text-align: center;
+}
+
+#join .box-content{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+
+#join .box{
+   width: 15vw;
+   height: 40vh;
+   border: 20px solid white;
+
+}
+
+#join .box-one{
+   background-color: #FFCD69;
+   text-align: center;
+}
+
+#join .box-two{
+   background-color: #FF7480;
+   text-align: center;
+}
+
+#join .box-three{
+   background-color: #BFDBFF;
+   text-align: center;
+}
+
+#join .box-four{
+   background-color: #FFE6B4;
+   text-align: center;
+}
+
+#join hr{
+  height: 9px; 
+  background-color: white;
+  border: 0px solid white;
+}
+
+
+
+#join .bottom-one{
+   background-color: #BFDBFF;
+}
+
+#join .bottom-two{
+   background-color: #FFCD69;
+}
+
+#join .bottom-three{
+   background-color: #FF7480;
+}
+
+#join .bottom-four{
+   background-color: #FFE6B4;
+}
+
+#join .box-content p{
+   text-align: center;
+   color: #000A64;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+#join .box-content .subtitle{
+   padding-top: 70px;
+   font-size: 15px;
+   color: #000A64;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#join .box-content .img-linkedin-box-one{
+   display: flex;
+   justify-content: center;
+   flex-flow: row wrap;
+   margin: 4px;
+}
+
+#join .box-content .img-linkedin-box-one img{
+   width: 9%;
+   margin: 8px;
+}  
+
+
+
+#join .join-img-up {
+   display: flex;
+   justify-content: center;
+}
+
+/* -----------Fin section rejoinde -----------------*/
+
+/* -----------Section bas de page---------- */
+
+#footer {
+   background-color: #000A64;
+   width: 100vw;
+   height: 12vh;
+}
+
+#footer .text-footer {
+   display: flex;
+   justify-content: center;
+   flex-flow: row wrap;
+   align-items: center;
+   padding-top: 25px;
+}
+
+#footer .text-footer .title-footer {
+   color: white;
+   font-family :Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   font-size: 25px;
+   padding-right: 400px;
+}
+
+#footer .text-footer p {
+   padding-left: 50px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+   padding-top: 10px;
+}

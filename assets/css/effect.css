@@ -1,0 +1,80 @@
+
+/* -----------Effect hover box tafis--------------- */
+#tarifs  .box-tarifs .box-bronze {
+    transition: 0.2s all ;
+ }
+ #tarifs .box-tarifs .box-bronze:hover{
+    background-color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0px 3px 16px 8px rgba(0,0,0,0.62);
+
+ }
+
+ #tarifs .box-tarifs .box-bronze .price{
+   transition: 0.1s all;
+}
+
+
+ #tarifs .box-tarifs .box-bronze .price:hover{
+   color: #FF7480;
+}
+
+#tarifs .box-tarifs .box-argent .price{
+   transition: 0.1s all;
+}
+
+
+ #tarifs .box-tarifs .box-argent .price:hover{
+   color: #FF7480;
+}
+
+
+#tarifs .box-tarifs .box-or .price{
+   transition: 0.1s all;
+}
+
+
+ #tarifs .box-tarifs .box-or .price:hover{
+   color: #FF7480;
+}
+
+
+
+#tarifs .box-tarifs .box-bronze .price{
+   transition: 0.3s all ease-in;
+}
+
+
+ #tarifs .box-tarifs .box-bronze .price:hover{
+   color: #FF7480;
+}
+
+
+ #tarifs  .box-tarifs .box-argent{
+    transition: 0.2s all ease-in;
+    
+ }
+
+ #tarifs .box-tarifs .box-argent:hover{
+    background-color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0px 3px 16px 8px rgba(0,0,0,0.62);
+ }
+
+ #tarifs  .box-tarifs .box-or{
+   transition: 0.2s all ease-in;
+}
+
+ #tarifs .box-tarifs .box-or:hover{
+    background-color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0px 3px 16px 8px rgba(0,0,0,0.62);
+ }
+
+
+ 
+
+/* -----------Effect hover box tafis Fin --------------- */
+
+
+/* -------------Effect hover box tafis text --------------------*/
